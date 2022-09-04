@@ -1,0 +1,21 @@
+[
+    {
+        "TGchannelID":"1594095970", //Telegram channel 1
+        "senderAvatarUrl":"https://i.imgur.com/j8ixDXF.jpg", // Sender Avatar that will be visible on Discord (if it's not provided it will be pulled automatically from Telegram)
+        "senderName":"", // Sender name that will be visible on Discord (if not provided it will defautl to the Telegram channel name)
+        "discordWebhooks":
+        [// Discord webhooks to forward to from this TG channel
+            "https://discord.com/api/webhooks/123",
+            "https://discord.com/api/webhooks/456"
+        ]
+    },
+    {
+        "TGchannelID":"1786421862", //telegram channel 2
+        "senderAvatarUrl":"https://i.imgur.com/8EpbciV.png",// Sender Avatar that will be visible on Discord (if it's not provided it will be pulled automatically from Telegram)
+        "senderName":"",// Sender name that will be visible on Discord (if not provided it will defautl to the Telegram channel name)
+        "discordWebhooks":
+        [ // Discord webhooks to forward to from this TG channel
+            "https://discord.com/api/webhooks/678"
+        ]
+    }
+]
